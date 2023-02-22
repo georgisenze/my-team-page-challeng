@@ -1,0 +1,23 @@
+  
+  .container {
+    writing-mode: horizontal-tb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,minmax(100px, auto));
+    grid-auto-flow: row;
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 1em;
+    max-width: 30rem;
+  }
+
+  img {
+    width: ;
+  }
+  
+  label {
+    --flow-space: 1rem;
+    display: grid;
+    grid-template-columns: 180px min-content;
+    gap: 0.2rem;
+  }
